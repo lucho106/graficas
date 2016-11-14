@@ -28,7 +28,11 @@ private int x,y;
     
     @Override
     public void actionPerformed(ActionEvent e) {
-        this.x+=5;
+         this.x+=5;
+        if (x==1000){
+          this.x-=1000;
+        }
+        
         repaint();
         
     }

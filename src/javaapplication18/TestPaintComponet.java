@@ -18,8 +18,7 @@ public class TestPaintComponet extends JFrame{
 public static void main(String[] args) {
       
 TestPaintComponet frame = new TestPaintComponet();
-frame.setTitle("TextPintComponent");
-frame.add(new tablero());
+
 frame.setSize(900, 900);
 frame.setLocationRelativeTo(null);
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
